@@ -1,0 +1,81 @@
+<!--
+
+TABLE
+    --Table Variants(colors)
+    table-primary
+    table-secondary
+    table-success
+    table-danger
+    table-warning
+    table-info
+    table-light
+    table-dark 
+
+    --Table Accents/Styles
+    table-striped
+    table-striped-columns
+    table-bordered
+    table-borderless
+    table-hover
+    table-sm
+    table-active 
+
+    --Table Anatomy and Structure
+    caption-top
+    table-group-divider
+    thead-dark (deprecated in v5, but present in some lists)
+    thead-light (deprecated in v5, but present in some lists) 
+
+    --Responsive Tables
+    table-responsive
+    table-responsive-sm
+    table-responsive-md
+    table-responsive-lg
+    table-responsive-xl
+    table-responsive-xxl 
+You
+ -->
+ <!DOCTYPE html>
+ <html lang="en">
+ <head>
+     <meta charset="UTF-8">
+     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js" integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI" crossorigin="anonymous"></script>
+     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+     <title>03-TAXT-COLORS</title>
+ </head>
+    <body class="bg-muted">
+        <div class="table-responsive">
+            <table class="table table-striped table-bordered table-hover">
+              <thead>
+                <tr>
+                  <th>#</th>
+                  <th>First Name</th>
+                  <th>Last Name</th>
+                  <th>Username</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr class="table-success">
+                  <td>1</td>
+                  <td>Mark</td>
+                  <td>Otto</td>
+                  <td>@mdo</td>
+                </tr>
+                <tr>
+                  <td>2</td>
+                  <td>Jacob</td>
+                  <td>Thornton</td>
+                  <td>@fat</td>
+                </tr>
+                <tr class="table-danger">
+                  <td>3</td>
+                  <td>Larry</td>
+                  <td>the Bird</td>
+                  <td>@twitter</td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+    </body>
+ </html>
